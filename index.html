@@ -11,15 +11,53 @@
 
 	<h1>Změna tříd, události</h1>
 
-	<div class="ctverecek zluty"></div>
+	<div onmouseover="zmenBarvu()" id="ctverecek1" class="ctverecek zluty"></div>
 
 	<div class="ctverecek zeleny"></div>
+
+<button onclick="zavolejUdalost(event)"
+ class="tlacitko">Moje událost</button>
+
+ <button onclick="zavolejUdalost(event)"
+ class="tlacitko">Moje událost 1</button>
+ <button onclick="zavolejUdalost(event)"
+ class="tlacitko">Moje událost 2</button>
 
 	<img class="obrazek" src="obrazky/kocka.jpg">
 
 	<button class="tlacitko">Čudlajs</button>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+	<br><br><br>
+<br>
 
+	<button onclick="spustAudio()"
+	class="tlacitko">Play</button>
+	<button onclick="pauseAudio()"
+	class="tlacitko">Pauza</button>
+	<button onclick="resetAudio()"
+	class="tlacitko">Reset</button>
+	<br><br><br>
+	
+	<button onclick="volumeAudio1()"
+	class="tlacitko">Hlasitost1</button>
+	<button onclick="volumeAudio2()"
+	class="tlacitko">Hlasitost2</button>
+	<button onclick="volumeAudio3()"
+	class="tlacitko">Hlasitost3</button>
+
+
+	<audio class="mujPrehravac" src="audio/dingdingdang.mp3" preload="auto"></audio>
+
+<br>
+<br>
+<br>
+
+<p onmouseover="ztucnit()" id="odstavec">V elipse spí lev</p>
+
+<button onclick="zmenaBarvy()" class="tlacitkoprozmenu">červené po kliknutí</button>
+<br>
+<button onclick="zvetsit()" class="zvetsenipisma">větší po kliknutí</button>
+
+<script src="main.js"></script>
 </body>
 </html>

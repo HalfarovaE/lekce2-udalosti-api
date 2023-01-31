@@ -109,6 +109,15 @@ li {
 	border-color: orange;
 }
 
+
+
+.mujstyl{
+	padding: 100px;
+	background-color: yellow;
+	color: red;
+	border-color: orange;
+}
+
 .zeleny {
 	background-color: greenyellow;
 	color: black;
@@ -121,3 +130,22 @@ li {
 	color: black;
 	border-color: blue;
 }
+
+.csstrida {
+	color: blue;
+}
+
+.odstavec {
+	font-size: 16px;
+}
+
+.odstavectucny {
+	font-style: bold;
+}
+
+.odstaveczmenabarvy {
+	color:red;
+}
+
+.zmenapisma
+{font-size: 17px;}
