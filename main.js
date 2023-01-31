@@ -1,20 +1,22 @@
 // tady je místo pro náš program
-let nadpis = document.querySelector ("h1")
-nadpis.classList.add ("csstrida")
-
-let ctverecek = document.querySelector ("#ctverecek1")
-
-function zmenBarvu(){
-ctverecek.classList.toggle("mujstyl") }
-
-let tlacitko = document.querySelector (".tlacitko")
-
-
-function zavolejUdalost(udalost){
-    let prvek = udalost.target;
-console.log (prvek)
-console.log (udalost)}
-
+//úkol na lekci
+function ztucnit(){
+    let odstavec = document.querySelector ('#odstavec');
+      console.log (odstavec);
+      odstavec.style.fontWeight = 'bold';}
+      
+  //dú 1
+  function zmenaBarvy(){
+      let odstavec = document.querySelector('#odstavec');
+  
+      odstavec.classList.toggle ('odstaveczmenabarvy')
+  }
+  
+  //dú 2
+  function zvetsit(){
+      odstavec.classList.add ('zmenapisma');
+  }
+  
 
 let mujPrehravac = document.querySelector ('.mujPrehravac');
 
@@ -41,24 +43,6 @@ function volumeAudio2(){
 
 function volumeAudio3(){
     mujPrehravac.volume = 1;
-}
-
-//úkol na lekci
-function ztucnit(){
-  let odstavec = document.querySelector ('#odstavec');
-    console.log (odstavec);
-    odstavec.style.fontWeight = 'bold';}
-    
-//dú 1
-function zmenaBarvy(){
-    let odstavec = document.querySelector('#odstavec');
-
-    odstavec.classList.toggle ('odstaveczmenabarvy')
-}
-
-//dú 2
-function zvetsit(){
-    odstavec.classList.add ('zmenapisma');
 }
 
 
